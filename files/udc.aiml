@@ -2,78 +2,38 @@
 <aiml version="2.0">
 
   <category>
-    <pattern>HI</pattern>
-    <template>Hello! I'm here to help you explore career options in computing. What are you thinking about today?</template>
+    <pattern>*</pattern>
+    <template>Hmm, that's an interesting point. However, I'm currently focused on helping students explore career options in computing. Is there anything related to that you'd like to discuss?</template>
   </category>
 
   <category>
-    <pattern>HELLO</pattern>
-    <template><srai>HI</srai></template>
+    <pattern>I DON'T KNOW</pattern>
+    <template>No problem. Is there something else I can help you with regarding career paths in computer science?</template>
   </category>
 
   <category>
-    <pattern>GREETINGS</pattern>
-    <template><srai>HI</srai></template>
+    <pattern>I AM NOT SURE</pattern>
+    <template><srai>I DON'T KNOW</srai></template>
   </category>
 
   <category>
-    <pattern>WHAT CAN YOU DO</pattern>
-    <template>I can help you identify potential computing jobs that might be a good fit for you based on your interests and strengths. We can explore different career paths in computer science.</template>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm functioning well, thank you for asking! How are you feeling about your career options?</template>
   </category>
 
   <category>
-    <pattern>WHAT IS YOUR PURPOSE</pattern>
-    <template><srai>WHAT CAN YOU DO</srai></template>
+    <pattern>HOW ARE YOU DOING</pattern>
+    <template><srai>HOW ARE YOU</srai></template>
   </category>
 
   <category>
-    <pattern>HOW CAN YOU HELP ME</pattern>
-    <template><srai>WHAT CAN YOU DO</srai></template>
+    <pattern>NO</pattern>
+    <template>Okay. Is there something else you'd like to talk about?</template>
   </category>
 
   <category>
-    <pattern>* CODING *</pattern>
-    <template>It sounds like you enjoy coding! Have you considered a role as a Software Developer / Engineer or perhaps a Web Developer?</template>
-  </category>
-
-  <category>
-    <pattern>* PROGRAMMING *</pattern>
-    <template><srai>* CODING *</srai></template>
-  </category>
-
-  <category>
-    <pattern>* PROBLEM SOLVING *</pattern>
-    <template>Problem-solving is a valuable skill! You might find roles like Software Developer / Engineer, Data Analyst, or even IT Support Specialist interesting.</template>
-  </category>
-
-  <category>
-    <pattern>* TECHNICAL SUPPORT *</pattern>
-    <template>If you're interested in helping people with technical issues, the role of an IT Support Specialist / Help Desk Technician could be a good fit.</template>
-  </category>
-
-  <category>
-    <pattern>* HELPING PEOPLE WITH COMPUTERS *</pattern>
-    <template><srai>* TECHNICAL SUPPORT *</srai></template>
-  </category>
-
-  <category>
-    <pattern>* DATA *</pattern>
-    <template>If you're drawn to working with data, you might want to explore the role of a Data Analyst.</template>
-  </category>
-
-  <category>
-    <pattern>* ANALYZE DATA *</pattern>
-    <template><srai>* DATA *</srai></template>
-  </category>
-
-  <category>
-    <pattern>* SECURITY *</pattern>
-    <template>If you're interested in protecting computer systems, have you thought about a career as a Cybersecurity Analyst?</template>
-  </category>
-
-  <category>
-    <pattern>* WEB * DEVELOPMENT *</pattern>
-    <template>If you enjoy building things for the internet, you might find being a Web Developer rewarding.</template>
+    <pattern>YES</pattern>
+    <template>Great! What's on your mind?</template>
   </category>
 
 </aiml>
