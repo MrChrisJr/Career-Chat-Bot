@@ -35,12 +35,27 @@
     <pattern>* CODING *</pattern>
     <template>It sounds like you enjoy coding! Have you considered a role as a Software Developer / Engineer or perhaps a Web Developer?</template>
   </category>
+  
+  <category>
+    <pattern>* CODING</pattern>
+    <template>It sounds like you enjoy coding! Have you considered a role as a Software Developer / Engineer or perhaps a Web Developer?</template>
+  </category>
 
   <category>
     <pattern>* PROGRAMMING *</pattern>
     <template><srai>* CODING *</srai></template>
   </category>
+  
+  <category>
+    <pattern>* PROGRAMMING</pattern>
+    <template><srai>* CODING *</srai></template>
+  </category>
 
+  <category>
+    <pattern>* PROBLEM SOLVING</pattern>
+    <template>Problem-solving is a valuable skill! You might find roles like Software Developer / Engineer, Data Analyst, or even IT Support Specialist interesting.</template>
+  </category>
+  
   <category>
     <pattern>* PROBLEM SOLVING *</pattern>
     <template>Problem-solving is a valuable skill! You might find roles like Software Developer / Engineer, Data Analyst, or even IT Support Specialist interesting.</template>
@@ -50,9 +65,19 @@
     <pattern>* TECHNICAL SUPPORT *</pattern>
     <template>If you're interested in helping people with technical issues, the role of an IT Support Specialist / Help Desk Technician could be a good fit.</template>
   </category>
+  
+  <category>
+    <pattern>* TECHNICAL SUPPORT</pattern>
+    <template>If you're interested in helping people with technical issues, the role of an IT Support Specialist / Help Desk Technician could be a good fit.</template>
+  </category>
 
   <category>
     <pattern>* HELPING PEOPLE WITH COMPUTERS *</pattern>
+    <template><srai>* TECHNICAL SUPPORT *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* HELPING PEOPLE WITH COMPUTERS</pattern>
     <template><srai>* TECHNICAL SUPPORT *</srai></template>
   </category>
 
@@ -60,9 +85,19 @@
     <pattern>* DATA *</pattern>
     <template>If you're drawn to working with data, you might want to explore the role of a Data Analyst.</template>
   </category>
+  
+  <category>
+    <pattern>* DATA</pattern>
+    <template>If you're drawn to working with data, you might want to explore the role of a Data Analyst.</template>
+  </category>
 
   <category>
     <pattern>* ANALYZE DATA *</pattern>
+    <template><srai>* DATA *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* ANALYZE DATA</pattern>
     <template><srai>* DATA *</srai></template>
   </category>
 
@@ -70,9 +105,24 @@
     <pattern>* SECURITY *</pattern>
     <template>If you're interested in protecting computer systems, have you thought about a career as a Cybersecurity Analyst?</template>
   </category>
+  
+  <category>
+    <pattern>* SECURITY</pattern>
+    <template>If you're interested in protecting computer systems, have you thought about a career as a Cybersecurity Analyst?</template>
+  </category>
 
   <category>
     <pattern>* WEB * DEVELOPMENT *</pattern>
+    <template>If you enjoy building things for the internet, you might find being a Web Developer rewarding.</template>
+  </category>
+  
+  <category>
+    <pattern>* WEB * DEVELOPMENT</pattern>
+    <template>If you enjoy building things for the internet, you might find being a Web Developer rewarding.</template>
+  </category>
+  
+  <category>
+    <pattern>* WEB DEVELOPMENT</pattern>
     <template>If you enjoy building things for the internet, you might find being a Web Developer rewarding.</template>
   </category>
 
